@@ -1,0 +1,61 @@
+[
+    {
+      "title": "Spotify Clone",
+      "description": "Built with Next.js, Tailwind CSS, Spotify API, and Redux, this Spotify clone replicates core functionalities of the Spotify platform. It allows users to authenticate using their Spotify credentials, fetch their playlists, and access detailed user information seamlessly. Leveraging the Spotify API, the app integrates real-time music data while Redux ensures state management across the app. Tailwind CSS ensures a modern, responsive UI, providing an intuitive and visually appealing experience for both desktop and mobile users.",
+      "image": "spotify_clone.png",
+      "techStack": [
+        "https://www.svgrepo.com/show/354112/nextjs.svg", 
+        "https://www.svgrepo.com/show/374118/tailwind.svg",
+        "https://www.svgrepo.com/show/349419/javascript.svg",
+        "https://www.svgrepo.com/show/452093/redux.svg",
+        "https://www.svgrepo.com/show/475684/spotify-color.svg"
+      ]
+    },
+    {
+      "title": "G-mart",
+      "description": "This MERN e-commerce app is a full-stack application built with React for the frontend, Tailwind CSS for modern UI styling, Node.js and Express for the backend, MongoDB for database management, and Redux for state management. It features secure user authentication, allowing users to sign up, log in, and manage their accounts. Users can add items to their cart, which includes a dynamic, animated user interface for a smooth shopping experience. The app integrates a payment gateway to handle transactions securely, providing a complete e-commerce solution.",
+      "image": "g-mart.png",
+      "techStack": [
+        "https://www.svgrepo.com/show/354259/react.svg", 
+        "https://www.svgrepo.com/show/374118/tailwind.svg",
+        "https://www.svgrepo.com/show/349419/javascript.svg",
+        "https://www.svgrepo.com/show/452093/redux.svg",
+        "https://www.svgrepo.com/show/331488/mongodb.svg",
+        "https://www.svgrepo.com/show/354119/nodejs-icon.svg"
+      ]
+    },
+    {
+      "title": "MERN Chat App",
+      "description": "I developed a full-stack chat application using the MERN stack (MongoDB, Express, React, Node.js), along with Socket.io for real-time messaging. The app features secure user authentication, allowing users to send end-to-end encrypted messages. It also supports file sharing, emoji integration, and a fully customizable profile section, all wrapped in a responsive UI built with Tailwind CSS. This app provides a seamless and engaging user experience with real-time communication.",
+      "image": "chatApp.png",
+      "techStack": [
+        "https://www.svgrepo.com/show/354259/react.svg", 
+        "https://www.svgrepo.com/show/374118/tailwind.svg",
+        "https://www.svgrepo.com/show/349419/javascript.svg",
+        "https://www.svgrepo.com/show/452093/redux.svg",
+        "https://www.svgrepo.com/show/331488/mongodb.svg",
+        "https://www.svgrepo.com/show/354119/nodejs-icon.svg",
+        "https://www.svgrepo.com/show/354362/socket.svg"
+      ]
+    },
+    {
+      "title": "Space shooter PYGAME",
+      "description": "I developed a space shooter game using Python and Pygame. In this game, players control a spaceship, navigate through space, and engage in combat with enemy ships. The gameplay features intuitive controls, dynamic enemy movements, and a scoring system that tracks progress. Pygame's libraries handle smooth animations, collision detection, and user interactions, creating a fast-paced and enjoyable experience. The project emphasizes efficient code structure and responsive game mechanics, providing an engaging arcade-style shooter.",
+      "image": "space-shooter.png",
+      "techStack": [
+        "https://www.svgrepo.com/show/452091/python.svg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/be/Pygame_logo.svg"
+      ]
+    },
+    {
+      "title": "Jarvis Desktop Assistant",
+      "description": "My Jarvis Desktop Assistant project, built using Python, automates a range of tasks based on speech commands. The assistant can perform functions such as opening applications, searching the web, sending emails, playing music, and more. By using speech recognition, it offers hands-free control, streamlining daily tasks for enhanced productivity and convenience.",
+      "image": "Jarvis.png",
+      "techStack": [
+        "https://www.svgrepo.com/show/452091/python.svg",
+        "https://www.shareicon.net/data/128x128/2015/09/16/101908_qt_512x512.png",
+        "https://www.svgrepo.com/show/354321/selenium.svg"
+      ]
+    }
+  ]
+  
