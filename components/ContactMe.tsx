@@ -30,7 +30,7 @@ export default function ContactMe({ }: Props) {
         <h4 className='text-3xl md:text-4xl font-semibold text-center'>
           I have just got what you need.{" "}
           <span className='underline decoration-[#F7AB0A]/50'>
-            Let's Talk.
+          Let`&apos;`s Talk.
           </span>
         </h4>
 
