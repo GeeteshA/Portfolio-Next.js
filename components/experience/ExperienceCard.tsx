@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 type Props = {}
 
@@ -26,32 +27,44 @@ function ExperienceCard({ }: Props) {
         <p className='font-bold text-base sm:text-lg md:text-xl mt-1'>Greet Labs Private Limited</p>
         <div className='flex space-x-2 my-2'>
           {/* Tech used */}
-          <img
+          <Image
+            width={24}
+            height={24}
             className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
             src="https://www.svgrepo.com/show/354259/react.svg"
             alt="React Logo"
           />
-          <img
+          <Image
+            width={24}
+            height={24}
             className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
             src="https://www.svgrepo.com/show/349419/javascript.svg"
             alt="Javascript Logo"
           />
-          <img
+          <Image
+            width={24}
+            height={24}
             className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
             src="https://www.svgrepo.com/show/452093/redux.svg"
             alt="Redux Logo"
           />
-          <img
+          <Image
+            width={24}
+            height={24}
             className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
             src="https://www.svgrepo.com/show/355140/node.svg"
             alt="Node Logo"
           />
-          <img
+          <Image
+            width={24}
+            height={24}
             className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
             src="https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg"
             alt="Bootsetap Logo"
           />
-          <img
+          <Image
+            width={24}
+            height={24}
             className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
             src="https://www.svgrepo.com/show/512317/github-142.svg"
             alt="Git Logo"

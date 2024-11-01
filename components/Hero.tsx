@@ -2,6 +2,7 @@ import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
 import Link from 'next/link';
+import Image from 'next/image';
 
 type Props = {};
 
@@ -19,8 +20,10 @@ export default function Hero({}: Props){
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles />
-        <img className='relative rounded-full w-32 h-32 mx-auto object-cover'
-            src="Profile.png" alt="" />
+        <Image
+            width={128}
+            height={128} className='relative rounded-full w-32 h-32 mx-auto object-cover'
+            src="/Profile.png" alt="" />
         <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
             Software Engineer

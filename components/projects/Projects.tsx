@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import projectsData from './projectsData.json'; // Import the JSON data
+import Image from 'next/image';
 
 type Props = {}
 
@@ -31,7 +32,9 @@ function Projects({ }: Props) {
                             </h4>
                             <div className='flex items-center space-x-2 justify-center'>
                                 {project.techStack.map((tech, index) => (
-                                    <img
+                                    <Image
+                                    width={32}
+                                    height={32}
                                         key={index}
                                         className='h-8 w-8 rounded-full'
                                         src={tech}  // Use dynamic tech stack images

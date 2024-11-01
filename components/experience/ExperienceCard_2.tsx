@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 
 type Props = {}
@@ -27,27 +28,37 @@ export default function ExperienceCard_2({}: Props) {
       <p className='font-bold text-base sm:text-lg md:text-xl mt-1'>Universal Informatics</p>
       <div className='flex space-x-2 my-2'>
         {/* Tech used */}
-        <img
+        <Image
+            width={24}
+            height={24}
           className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
           src="https://www.svgrepo.com/show/452228/html-5.svg"
           alt="HTML Logo"
         />
-        <img
+        <Image
+            width={24}
+            height={24}
           className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
           src="https://www.svgrepo.com/show/452185/css-3.svg"
           alt="CSS Logo"
         />
-        <img
+        <Image
+            width={24}
+            height={24}
           className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
           src="https://www.svgrepo.com/show/349419/javascript.svg"
           alt="Javascript Logo"
         />
-        <img
+        <Image
+            width={24}
+            height={24}
           className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
           src="https://www.svgrepo.com/show/452242/jquery.svg"
           alt="Jquery Logo"
         />
-        <img
+        <Image
+            width={24}
+            height={24}
           className='h-6 w-6 sm:h-8 sm:w-8 rounded-full'
           src="https://www.svgrepo.com/show/374118/tailwind.svg"
           alt="Tailwind Logo"
