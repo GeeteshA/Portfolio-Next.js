@@ -13,7 +13,7 @@ export default function Home() {
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll 
     z-0 overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
       <Head>
-        <title>GeeteshLet`&apos;`s Portfolio</title>
+        <title>GeeteshLet`s Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Geetesh's Portfolio showcasing skills, experience, and projects" />
       </Head>
