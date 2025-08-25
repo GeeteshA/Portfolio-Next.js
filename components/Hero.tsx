@@ -23,7 +23,7 @@ export default function Hero({}: Props){
         <Image
             width={128}
             height={128} className='relative rounded-full w-32 h-32 mx-auto object-cover'
-            src="/Profile.png" alt="" />
+            src="/Geetesh.png" alt="" />
         <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
             Software Engineer
